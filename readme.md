@@ -19,3 +19,10 @@ set up in the switch case inside of DriverUtils class
 2. If the driver is set up in the switch case you can change
 the app.browser value in the config.properties value to the 
 browser value you would like to execute the test on
+
+### Steps to running tests in sauce labs
+1. Go into config.properties file and fill out sauce.username 
+and sauce.accessKey with your info
+2. Set app.host to *saucelabs* and run any feature/runner how
+you normally would
+3. Open your saucelabs dashboard to see the results
